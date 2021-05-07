@@ -1,0 +1,467 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     22973,        459]
+NotebookOptionsPosition[     21945,        433]
+NotebookOutlinePosition[     22357,        449]
+CellTagsIndexPosition[     22314,        446]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"Needs", "[", "\"\<PacletManager`\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.8292927662428493`*^9, 3.8292927729799147`*^9}},
+ CellLabel->"In[28]:=",ExpressionUUID->"978392b3-9346-478c-9230-86b8c17962fd"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"PacletInstall", "[", "\"\<~/download/IGraphM-0.5.1.paclet\>\"", 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.829292784728263*^9, 3.8292928018419333`*^9}},
+ CellLabel->"In[29]:=",ExpressionUUID->"e72dae98-8ff6-4dce-a15a-9e99e8542874"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   TagBox["PacletObject",
+    "SummaryHead"], "[", 
+   DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+    
+    TemplateBox[{
+      PaneSelectorBox[{False -> GridBox[{{
+            PaneBox[
+             ButtonBox[
+              DynamicBox[
+               FEPrivate`FrontEndResource[
+               "FEBitmaps", "SquarePlusIconMedium"]], 
+              ButtonFunction :> (Typeset`open$$ = True), Appearance -> None, 
+              BaseStyle -> {}, Evaluator -> Automatic, Method -> 
+              "Preemptive"], Alignment -> {Center, Center}, ImageSize -> 
+             Dynamic[{
+               Automatic, 3.5 CurrentValue["FontCapHeight"]/
+                AbsoluteCurrentValue[Magnification]}]], 
+            GraphicsBox[
+             TagBox[
+              RasterBox[CompressedData["
+1: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
+               
+               "], {{0, 46.}, {46., 0}}, {0, 255}, ColorFunction -> RGBColor, 
+               ImageResolution -> {72, 72}], 
+              BoxForm`ImageTag[
+              "Byte", ColorSpace -> "RGB", Interleaving -> True, 
+               MetaInformation -> 
+               Association[
+                "XMP" -> Association[
+                  "DublinCoreSchema" -> Association["Format" -> "image/png"], 
+                   "PhotoshopSchema" -> Association["ColorMode" -> 3], 
+                   "BasicSchema" -> 
+                   Association[
+                    "CreateDate" -> 
+                    DateObject[{2017, 12, 1, 16, 38, 15.}, "Instant", 
+                    "Gregorian", 8.], "CreatorTool" -> 
+                    "Adobe Photoshop CC 2017 (Macintosh)", "MetadataDate" -> 
+                    DateObject[{2017, 12, 4, 22, 9, 4.}, "Instant", 
+                    "Gregorian", 8.], "ModifyDate" -> 
+                    DateObject[{2017, 12, 4, 22, 9, 4.}, "Instant", 
+                    "Gregorian", 8.]], "MediaManagementSchema" -> 
+                   Association[
+                    "DocumentID" -> 
+                    "xmp.did:a23149e2-a0d1-4081-bab4-71ed4683843a", "History" -> 
+                    Association[
+                    "History[1]" -> 
+                    Association[
+                    "Action" -> "created", "InstanceID" -> 
+                    "xmp.iid:a23149e2-a0d1-4081-bab4-71ed4683843a", "When" -> 
+                    DateObject[{2017, 12, 1, 16, 38, 15}, "Instant", 
+                    "Gregorian", 8.], "SoftwareAgent" -> 
+                    "Adobe Photoshop CC 2017 (Macintosh)"]], "InstanceID" -> 
+                    "xmp.iid:a23149e2-a0d1-4081-bab4-71ed4683843a", 
+                    "OriginalDocumentID" -> 
+                    "xmp.did:a23149e2-a0d1-4081-bab4-71ed4683843a"], 
+                   "RightsManagementSchema" -> 
+                   Association[
+                    "History" -> 
+                    Association[
+                    "History[1]" -> 
+                    Association[
+                    "Action" -> "created", "InstanceID" -> 
+                    "xmp.iid:a23149e2-a0d1-4081-bab4-71ed4683843a", "When" -> 
+                    DateObject[{2017, 12, 1, 16, 38, 15}, "Instant", 
+                    "Gregorian", 8.], "SoftwareAgent" -> 
+                    "Adobe Photoshop CC 2017 (Macintosh)"]]], 
+                   "PagedTextSchema" -> 
+                   Association[
+                    "History" -> 
+                    Association[
+                    "History[1]" -> 
+                    Association[
+                    "Action" -> "created", "InstanceID" -> 
+                    "xmp.iid:a23149e2-a0d1-4081-bab4-71ed4683843a", "When" -> 
+                    DateObject[{2017, 12, 1, 16, 38, 15}, "Instant", 
+                    "Gregorian", 8.], "SoftwareAgent" -> 
+                    "Adobe Photoshop CC 2017 (Macintosh)"]]]]]], Selectable -> 
+              False], DefaultBaseStyle -> "ImageGraphics", 
+             ImageSizeRaw -> {46., 46.}, PlotRange -> {{0, 46.}, {0, 46.}}], 
+            GridBox[{{
+               RowBox[{
+                 TagBox["\"Name: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["\"IGraphM\"", "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Version: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["\"0.5.1\"", "SummaryItem"]}]}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}], True -> GridBox[{{
+            PaneBox[
+             ButtonBox[
+              DynamicBox[
+               FEPrivate`FrontEndResource[
+               "FEBitmaps", "SquareMinusIconMedium"]], 
+              ButtonFunction :> (Typeset`open$$ = False), Appearance -> None, 
+              BaseStyle -> {}, Evaluator -> Automatic, Method -> 
+              "Preemptive"], Alignment -> {Center, Center}, ImageSize -> 
+             Dynamic[{
+               Automatic, 3.5 CurrentValue["FontCapHeight"]/
+                AbsoluteCurrentValue[Magnification]}]], 
+            GraphicsBox[
+             TagBox[
+              RasterBox[CompressedData["
+1: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
+               
+               "], {{0, 46.}, {46., 0}}, {0, 255}, ColorFunction -> RGBColor, 
+               ImageResolution -> {72, 72}], 
+              BoxForm`ImageTag[
+              "Byte", ColorSpace -> "RGB", Interleaving -> True, 
+               MetaInformation -> 
+               Association[
+                "XMP" -> Association[
+                  "DublinCoreSchema" -> Association["Format" -> "image/png"], 
+                   "PhotoshopSchema" -> Association["ColorMode" -> 3], 
+                   "BasicSchema" -> 
+                   Association[
+                    "CreateDate" -> 
+                    DateObject[{2017, 12, 1, 16, 38, 15.}, "Instant", 
+                    "Gregorian", 8.], "CreatorTool" -> 
+                    "Adobe Photoshop CC 2017 (Macintosh)", "MetadataDate" -> 
+                    DateObject[{2017, 12, 4, 22, 9, 4.}, "Instant", 
+                    "Gregorian", 8.], "ModifyDate" -> 
+                    DateObject[{2017, 12, 4, 22, 9, 4.}, "Instant", 
+                    "Gregorian", 8.]], "MediaManagementSchema" -> 
+                   Association[
+                    "DocumentID" -> 
+                    "xmp.did:a23149e2-a0d1-4081-bab4-71ed4683843a", "History" -> 
+                    Association[
+                    "History[1]" -> 
+                    Association[
+                    "Action" -> "created", "InstanceID" -> 
+                    "xmp.iid:a23149e2-a0d1-4081-bab4-71ed4683843a", "When" -> 
+                    DateObject[{2017, 12, 1, 16, 38, 15}, "Instant", 
+                    "Gregorian", 8.], "SoftwareAgent" -> 
+                    "Adobe Photoshop CC 2017 (Macintosh)"]], "InstanceID" -> 
+                    "xmp.iid:a23149e2-a0d1-4081-bab4-71ed4683843a", 
+                    "OriginalDocumentID" -> 
+                    "xmp.did:a23149e2-a0d1-4081-bab4-71ed4683843a"], 
+                   "RightsManagementSchema" -> 
+                   Association[
+                    "History" -> 
+                    Association[
+                    "History[1]" -> 
+                    Association[
+                    "Action" -> "created", "InstanceID" -> 
+                    "xmp.iid:a23149e2-a0d1-4081-bab4-71ed4683843a", "When" -> 
+                    DateObject[{2017, 12, 1, 16, 38, 15}, "Instant", 
+                    "Gregorian", 8.], "SoftwareAgent" -> 
+                    "Adobe Photoshop CC 2017 (Macintosh)"]]], 
+                   "PagedTextSchema" -> 
+                   Association[
+                    "History" -> 
+                    Association[
+                    "History[1]" -> 
+                    Association[
+                    "Action" -> "created", "InstanceID" -> 
+                    "xmp.iid:a23149e2-a0d1-4081-bab4-71ed4683843a", "When" -> 
+                    DateObject[{2017, 12, 1, 16, 38, 15}, "Instant", 
+                    "Gregorian", 8.], "SoftwareAgent" -> 
+                    "Adobe Photoshop CC 2017 (Macintosh)"]]]]]], Selectable -> 
+              False], DefaultBaseStyle -> "ImageGraphics", 
+             ImageSizeRaw -> {46., 46.}, PlotRange -> {{0, 46.}, {0, 46.}}], 
+            GridBox[{{
+               RowBox[{
+                 TagBox["\"Name: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["\"IGraphM\"", "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Version: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["\"0.5.1\"", "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Location: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                 "\"/home/rex/.Mathematica/Paclets/Repository/IGraphM-0.5.1\"\
+", "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Description: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  TagBox[
+                  "\"IGraph/M \[Dash] the igraph interface for \
+Mathematica.\"", Short], "SummaryItem"]}]}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Rows" -> {{Top}}}, AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}]}, 
+       Dynamic[Typeset`open$$], ImageSize -> Automatic]},
+     "SummaryPanel"],
+    DynamicModuleValues:>{}], "]"}],
+  PacletObject[
+   Association[
+   "Name" -> "IGraphM", "Version" -> "0.5.1", "MathematicaVersion" -> "10.0+",
+     "Description" -> 
+    "IGraph/M \[Dash] the igraph interface for Mathematica.", "Creator" -> 
+    "Szabolcs Horv\[AAcute]t <szhorvat@gmail.com>", "URL" -> 
+    "http://szhorvat.net/mathematica/IGraphM", "Thumbnail" -> "Logo.png", 
+    "Icon" -> "Logo.png", 
+    "Keywords" -> {"igraph", "graph theory", "network analysis"}, 
+    "SystemID" -> {
+     "MacOSX-x86-64", "Windows-x86-64", "Linux-x86-64", "Linux-ARM"}, 
+    "Extensions" -> {{"Kernel", "Root" -> ".", "Context" -> "IGraphM`"}, {
+      "LibraryLink"}, {
+      "Documentation", "MainPage" -> "Tutorials/IGDocumentation"}}, 
+    "Location" -> "/home/rex/.Mathematica/Paclets/Repository/IGraphM-0.5.1"]],
+  
+  Editable->False,
+  SelectWithContents->True,
+  Selectable->False]], "Output",
+ CellChangeTimes->{3.8292928038994513`*^9},
+ CellLabel->"Out[29]=",ExpressionUUID->"e33cb549-abf4-4c43-bd4f-fdf366c08a4b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Needs", "[", "\"\<IGraphM`\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.8292928065646687`*^9, 3.829292819689028*^9}},
+ CellLabel->"In[31]:=",ExpressionUUID->"04ff214d-387b-4900-8476-a4f5fca1a0e4"],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {"\<\"IGraph/M 0.5.1 (October 12, 2020)\"\>"},
+    {"\<\"Evaluate \\!\\(\\*ButtonBox[\\\"IGDocumentation[]\\\",BaseStyle->\\\
+\"Link\\\",ButtonData->\\\"paclet:IGraphM\\\"]\\) to get started.\"\>"}
+   },
+   DefaultBaseStyle->"Column",
+   GridBoxAlignment->{"Columns" -> {{Left}}},
+   GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+  "Column"]], "Output",
+ CellChangeTimes->{{3.8292928155097847`*^9, 3.829292820605976*^9}},
+ CellLabel->"Out[31]=",ExpressionUUID->"3643f1b4-1bd7-42c2-8cde-8076281f5be7"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["IGSubisomorphicQ"], "Input",
+ CellChangeTimes->{{3.8292928795912523`*^9, 3.8292928832754173`*^9}},
+ CellLabel->"In[32]:=",ExpressionUUID->"c3801a6f-b291-4db4-91e1-3cfbc13a94d3"],
+
+Cell[BoxData["IGSubisomorphicQ"], "Output",
+ CellChangeTimes->{3.8292928837993517`*^9},
+ CellLabel->"Out[32]=",ExpressionUUID->"cbac0114-f3bf-4c1c-b61b-cd17e4e60f15"]
+}, Open  ]]
+},
+WindowSize->{606., 605.25},
+WindowMargins->{{Automatic, 84.75}, {32.25, Automatic}},
+FrontEndVersion->"12.1 for Linux x86 (64-bit) (2020\:5e747\:670815\:65e5)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"36abc497-f071-4173-8582-21339cf5e15e"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 228, 3, 46, "Input",ExpressionUUID->"978392b3-9346-478c-9230-86b8c17962fd"],
+Cell[CellGroupData[{
+Cell[811, 27, 254, 4, 46, "Input",ExpressionUUID->"e72dae98-8ff6-4dce-a15a-9e99e8542874"],
+Cell[1068, 33, 19641, 365, 84, "Output",ExpressionUUID->"e33cb549-abf4-4c43-bd4f-fdf366c08a4b"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[20746, 403, 220, 3, 46, "Input",ExpressionUUID->"04ff214d-387b-4900-8476-a4f5fca1a0e4"],
+Cell[20969, 408, 563, 11, 54, "Output",ExpressionUUID->"3643f1b4-1bd7-42c2-8cde-8076281f5be7"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[21569, 424, 191, 2, 29, "Input",ExpressionUUID->"c3801a6f-b291-4db4-91e1-3cfbc13a94d3"],
+Cell[21763, 428, 166, 2, 33, "Output",ExpressionUUID->"cbac0114-f3bf-4c1c-b61b-cd17e4e60f15"]
+}, Open  ]]
+}
+]
+*)
+
