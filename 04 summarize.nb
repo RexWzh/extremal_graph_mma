@@ -64,7 +64,7 @@ PacletInstall[\[OpenCurlyDoubleQuote]~/download/IGraphM-0.5.1.paclet\
   3.829442660246603*^9, 
   3.829442701625984*^9}},ExpressionUUID->"95888ae4-3f82-4e31-a751-\
 ac730c9fa973"]
-}, Open  ]],
+}, Closed]],
 
 Cell[CellGroupData[{
 
@@ -104,7 +104,7 @@ Cell[TextData[{
   3.829443452547905*^9}, {3.8294435074097958`*^9, 
   3.829443622221064*^9}},ExpressionUUID->"b18b59b7-4ab9-4bfd-9c47-\
 17367e18e479"]
-}, Open  ]],
+}, Closed]],
 
 Cell[CellGroupData[{
 
@@ -196,7 +196,7 @@ Cell[BoxData[
   3.8294436952443027`*^9, 3.8294437688667183`*^9}, {3.8294438477767677`*^9, 
   3.829443945136774*^9}},
  CellLabel->"In[10]:=",ExpressionUUID->"1c01cd05-d4d6-489c-82bc-6b243a6862f2"]
-}, Open  ]],
+}, Closed]],
 
 Cell[CellGroupData[{
 
@@ -394,7 +394,7 @@ Cell[BoxData["True"], "Output",
 }, Open  ]]
 },
 WindowSize->{990., 658.5},
-WindowMargins->{{Automatic, 174}, {37.5, Automatic}},
+WindowMargins->{{Automatic, 174}, {9.75, Automatic}},
 SpellingDictionaries->{"CorrectWords"->{
  "fcitx", "sudo", "vscode", "tmp", "linux", "sagemath", "Imagemagick", 
   "github", "jupyter", "Kostant", "pbw", "Nauty", "nauty", "plantri"}},
@@ -420,17 +420,17 @@ Cell[823, 30, 176, 3, 54, "Subsection",ExpressionUUID->"2e44b93e-816e-4c5f-abf9-
 Cell[CellGroupData[{
 Cell[1024, 37, 244, 4, 45, "Subsubsection",ExpressionUUID->"ee3d99dd-3d85-4d7a-b3b0-3f8ad4962f21"],
 Cell[1271, 43, 958, 22, 173, "Text",ExpressionUUID->"95888ae4-3f82-4e31-a751-ac730c9fa973"]
-}, Open  ]],
+}, Closed]],
 Cell[CellGroupData[{
-Cell[2266, 70, 193, 3, 45, "Subsubsection",ExpressionUUID->"8332762f-1a51-4c66-a039-d73ebf0434a0"],
+Cell[2266, 70, 193, 3, 37, "Subsubsection",ExpressionUUID->"8332762f-1a51-4c66-a039-d73ebf0434a0"],
 Cell[2462, 75, 1658, 30, 219, "Text",ExpressionUUID->"b18b59b7-4ab9-4bfd-9c47-17367e18e479"]
-}, Open  ]],
+}, Closed]],
 Cell[CellGroupData[{
-Cell[4157, 110, 179, 3, 45, "Subsubsection",ExpressionUUID->"d649d4be-35e7-46ef-83af-cfdbf17054da"],
+Cell[4157, 110, 179, 3, 37, "Subsubsection",ExpressionUUID->"d649d4be-35e7-46ef-83af-cfdbf17054da"],
 Cell[4339, 115, 3083, 82, 432, "Input",ExpressionUUID->"1c01cd05-d4d6-489c-82bc-6b243a6862f2"]
-}, Open  ]],
+}, Closed]],
 Cell[CellGroupData[{
-Cell[7459, 202, 181, 3, 45, "Subsubsection",ExpressionUUID->"4fa338e5-92ce-4f7f-b519-65bfba581d56"],
+Cell[7459, 202, 181, 3, 37, "Subsubsection",ExpressionUUID->"4fa338e5-92ce-4f7f-b519-65bfba581d56"],
 Cell[7643, 207, 1762, 48, 219, "Input",ExpressionUUID->"016936ee-8eeb-477c-bbe6-4d93a40df4b7"]
 }, Open  ]],
 Cell[CellGroupData[{

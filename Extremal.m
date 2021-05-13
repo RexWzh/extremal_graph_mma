@@ -34,6 +34,9 @@ SubgraphQ=IGSubisomorphicQ;
 
 (*simple graphs data*)
 SimpleGraphs[n_]:=Import["~/desktop/work_space/1 MMA/0 pkg/simplegraphs/graph"<>ToString@n<>".g6"];
+(*get part of the simple graphs*)
+SimpleGraphs[n_,a_,b_]:=Import["~/desktop/work_space/1 MMA/0 pkg/simplegraphs/graph"<>ToString@n<>".g6",{"GraphList",Range[a,b]}];
+
 (*Graph Subscript[F, k] of 2k+1 vertices (k\[GreaterEqual]1) *)
 GraphF[k_?Positive]:=Module[{vertices1,vertices2,edges},
 vertices1=Range@k;
@@ -41,6 +44,7 @@ vertices2=Range[-1,-k,-1];
 edges=(0<->#&)/@Join[vertices1,vertices2];
 edges=Join[edges,Thread[TwoWayRule[Range@k,Range[-1,-k,-1]]]];
 Graph@edges];
+
 (*Disjoint union of triangules*)
 GraphK3[k_?Positive]:=GraphDisjointUnion@@ConstantArray[GraphF@1,k];
 
