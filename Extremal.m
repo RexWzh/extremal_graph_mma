@@ -18,6 +18,7 @@ SubgraphQ;
 GraphF;
 GraphK3;
 ExtremalGraphs;
+path;
 
 
 Begin["Private`"];
@@ -32,10 +33,13 @@ Needs["IGraphM`"];
 SubgraphQ=IGSubisomorphicQ;
 
 
+path="~/desktop/work_space/1 MMA/0 pkg/simplegraphs";
 (*simple graphs data*)
-SimpleGraphs[n_]:=Import["~/desktop/work_space/1 MMA/0 pkg/simplegraphs/graph"<>ToString@n<>".g6"];
+SimpleGraphs[n_]:=Import[path<>"/graph"<>ToString@n<>".g6"];
+(*get part of the simple graphs -- too slow*)
+SimpleGraphs[n_,a_,b_]:=Import[path<>"/graph"<>ToString@n<>".g6",{"GraphList",Range[a,b]}];
 (*get part of the simple graphs*)
-SimpleGraphs[n_,a_,b_]:=Import["~/desktop/work_space/1 MMA/0 pkg/simplegraphs/graph"<>ToString@n<>".g6",{"GraphList",Range[a,b]}];
+SimpleGraphs[n_,k_]:=Import[ToString@StringForm["`1`/graph`2`/graph`2`-`3`.g6",path,n,k]];
 
 (*Graph Subscript[F, k] of 2k+1 vertices (k\[GreaterEqual]1) *)
 GraphF[k_?Positive]:=Module[{vertices1,vertices2,edges},
