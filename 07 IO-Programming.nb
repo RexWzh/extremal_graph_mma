@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      1911,         61]
-NotebookOptionsPosition[      1340,         43]
-NotebookOutlinePosition[      1745,         59]
-CellTagsIndexPosition[      1702,         56]
+NotebookDataLength[      4863,        134]
+NotebookOptionsPosition[      3668,        106]
+NotebookOutlinePosition[      4073,        122]
+CellTagsIndexPosition[      4030,        119]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -38,7 +38,70 @@ Cell[BoxData[
 graph/split/graph8-6.g6\>\"", "]"}], ";"}]], "Input",
  CellChangeTimes->{{3.829941990278211*^9, 3.829941991999443*^9}, {
   3.8299457510612803`*^9, 3.829945807895095*^9}},
- CellLabel->"In[2]:=",ExpressionUUID->"b26c783b-2718-43c1-9a6c-57106f9ef61e"]
+ CellLabel->"In[2]:=",ExpressionUUID->"b26c783b-2718-43c1-9a6c-57106f9ef61e"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"SetDirectory", "[", 
+   RowBox[{"NotebookDirectory", "[", "]"}], "]"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Needs", "[", "\"\<Extremal`\>\"", "]"}]}], "Input",
+ CellChangeTimes->{{3.830388805441966*^9, 3.830388830607759*^9}, {
+  3.8303888714579*^9, 3.830388877130047*^9}, {3.8303898004707823`*^9, 
+  3.830389801573209*^9}, {3.830389839706524*^9, 3.830389851191347*^9}, {
+  3.8303918668063602`*^9, 3.830391892660254*^9}},
+ CellLabel->"In[5]:=",ExpressionUUID->"fa24f20e-3614-475b-94f7-d596f5810854"],
+
+Cell[BoxData["\<\"Loading functions about extremal graphs...\"\>"], "Print",
+ CellChangeTimes->{3.830391894142489*^9},
+ CellLabel->
+  "\:6b63\:5728\:8ba1\:7b97In[5]:=",ExpressionUUID->"583c3326-30d3-441a-8b68-\
+8e39f875b3a9"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"k", "=", "9"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"graphs", "=", 
+   RowBox[{
+    RowBox[{"SimpleGraphs", "[", "k", "]"}], "//", 
+    RowBox[{"Select", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{"EdgeCount", "@", "#"}], "\[Equal]", 
+        RowBox[{
+         RowBox[{"3", "k"}], "-", "6"}]}], "&&", 
+       RowBox[{"PlanarGraphQ", "@", "#"}]}], "&"}], "]"}]}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"graphs", "//", "Length"}], "\[IndentingNewLine]", 
+ RowBox[{"AllTrue", "[", 
+  RowBox[{"graphs", ",", "HamiltonianGraphQ"}], "]"}]}], "Input",
+ CellChangeTimes->{{3.8303918970976686`*^9, 3.830392136375122*^9}},
+ CellLabel->"In[46]:=",ExpressionUUID->"0fb744d4-7619-4c07-9959-80a7befbb778"],
+
+Cell[BoxData["50"], "Output",
+ CellChangeTimes->{
+  3.830391911284195*^9, {3.830392009745604*^9, 3.8303920597115593`*^9}, {
+   3.830392093867527*^9, 3.830392135151824*^9}, 3.830392185408012*^9},
+ CellLabel->"Out[48]=",ExpressionUUID->"aec2d9e3-9d31-4f7e-9787-25b85632a04e"],
+
+Cell[BoxData["True"], "Output",
+ CellChangeTimes->{
+  3.830391911284195*^9, {3.830392009745604*^9, 3.8303920597115593`*^9}, {
+   3.830392093867527*^9, 3.830392135151824*^9}, 3.8303921854211807`*^9},
+ CellLabel->"Out[49]=",ExpressionUUID->"cc4af7f9-ba37-4301-9961-c88621dc38fe"]
+}, Open  ]],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.830391754450881*^9, 
+  3.830391773661879*^9}},ExpressionUUID->"7850d8d0-4913-4764-9968-\
+c88114b54483"]
 }, Open  ]]
 },
 WindowSize->{606., 658.5},
@@ -61,7 +124,17 @@ Notebook[{
 Cell[CellGroupData[{
 Cell[580, 22, 160, 3, 68, "Section",ExpressionUUID->"62f25f81-e993-4921-993d-c863acfba56e"],
 Cell[743, 27, 204, 3, 35, "Text",ExpressionUUID->"6f7541a8-0a64-4bee-98e5-d677b098d105"],
-Cell[950, 32, 374, 8, 90, "Input",ExpressionUUID->"b26c783b-2718-43c1-9a6c-57106f9ef61e"]
+Cell[950, 32, 374, 8, 90, "Input",ExpressionUUID->"b26c783b-2718-43c1-9a6c-57106f9ef61e"],
+Cell[CellGroupData[{
+Cell[1349, 44, 542, 10, 85, "Input",ExpressionUUID->"fa24f20e-3614-475b-94f7-d596f5810854"],
+Cell[1894, 56, 225, 4, 22, "Print",ExpressionUUID->"583c3326-30d3-441a-8b68-8e39f875b3a9"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2156, 65, 773, 20, 160, "Input",ExpressionUUID->"0fb744d4-7619-4c07-9959-80a7befbb778"],
+Cell[2932, 87, 273, 4, 32, "Output",ExpressionUUID->"aec2d9e3-9d31-4f7e-9787-25b85632a04e"],
+Cell[3208, 93, 277, 4, 32, "Output",ExpressionUUID->"cc4af7f9-ba37-4301-9961-c88621dc38fe"]
+}, Open  ]],
+Cell[3500, 100, 152, 3, 28, "Input",ExpressionUUID->"7850d8d0-4913-4764-9968-c88114b54483"]
 }, Open  ]]
 }
 ]
