@@ -33,7 +33,7 @@ Needs["IGraphM`"];
 SubgraphQ=IGSubisomorphicQ;
 
 
-path="~/desktop/work_space/1 MMA/0 pkg/simplegraphs";
+path="~/work_space/0 Github_items/MMA/0 pkg/simplegraphs";
 (*simple graphs data*)
 SimpleGraphs[n_]:=Import[path<>"/graph"<>ToString@n<>".g6"];
 (*get part of the simple graphs -- too slow*)
